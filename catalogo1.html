@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>catalogo</title>
+  <style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=13137&load=13170&brandID=capacitateg">
+      <img src="https://www.fundacioncarlosslim.org/wp-content/uploads/2016/05/video-empleo.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Capacitate para el empleo de carlo stim, donde encontras cursos y diplomado!</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.iep.edu.es/">
+      <img src="data:image/png;base64,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" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">El instituto europeo de posgrado que rebosa de cursos y becas!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://cursa.app/es/tecnologia-de-la-informacion">
+      <img src="https://lh3.googleusercontent.com/t6iaBB7hbwuCdH58CcJ25MWZD-ck6VNIFFOUtoogmGb57wi96cAf3MaybzDYsNi67CY" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Una buena aplicacion web para cursar muchos cursos gratuito con certificados!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://mooc.areandina.edu.co/cursos/escritorio">
+      <img src="https://th.bing.com/th/id/OIP.QKom4sFAd6xbIGE4xYTvkwAAAA?pid=ImgDet&rs=1" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Haste curto estudiando con el mooc de Areandina</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+</body>
+</html>
